@@ -644,6 +644,10 @@ footer span {
   margin: 50vh 48vw auto;
 }
 
+html, body {
+  height: 100%;
+}
+
 @media (max-width: 600px) {
   .topDivHeader {
     background-attachment: scroll;
