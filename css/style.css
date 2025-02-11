@@ -643,3 +643,11 @@ footer span {
 .loader img {
   margin: 50vh 48vw auto;
 }
+
+@media (max-width: 600px) {
+  .topDivHeader {
+    background-attachment: scroll;
+    background-size: contain;
+    background-position: top;
+  }
+}
