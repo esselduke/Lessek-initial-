@@ -648,19 +648,21 @@ html, body {
   height: 100%;
 }
 
+/*
 @media (max-width: 600px) {
   .topDivHeader {
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
     height: 100vh; /* Ensure it takes full viewport height */
-    padding: 0; /* Remove any padding that might affect the layout */
-  }
+  /*  padding: 0; /* Remove any padding that might affect the layout */
+/*  }
 
-  .topDivHeaderInner {
+/*  .topDivHeaderInner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100%; /* Ensure the inner content adjusts correctly */
   }
 }
+
