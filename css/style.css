@@ -649,10 +649,14 @@ footer span {
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
-    height: auto; /* Ensure it adjusts to the content */
-    min-height: 100vh; /* Ensure minimum height is set */
+    height: 100vh; /* Ensure it takes full viewport height */
+    padding: 0; /* Remove any padding that might affect the layout */
   }
+
   .topDivHeaderInner {
-    height: auto; /* Ensure the inner content adjusts correctly */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; /* Ensure the inner content adjusts correctly */
   }
 }
