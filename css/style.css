@@ -647,7 +647,9 @@ footer span {
 @media (max-width: 600px) {
   .topDivHeader {
     background-attachment: scroll;
-    background-size: contain;
-    background-position: top;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ensure it takes full viewport height */
+    padding: 0; /* Remove any padding that might affect the layout */
   }
 }
